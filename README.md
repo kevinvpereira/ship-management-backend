@@ -23,8 +23,6 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 This is the backend of the Ship Management Project, which includes all CRUD operations. 
@@ -57,11 +55,11 @@ If you are not using Visual Studio, please follow the instructions:
 https://dotnet.microsoft.com/en-us/download
 
 #### Instructions
-1. Build the project
+1. Build the project, in the project folder
    ```sh
    dotnet build
    ```
-2. Run the code
+2. Run the command, in the ShipManagement.API folder
    ```sh
    dotnet run
    ```
