@@ -23,7 +23,6 @@ namespace ShipManagement.API.Controllers
             {
                 Data = result,
                 Count = count,
-                Success = true,
             };
         }
 
@@ -33,7 +32,6 @@ namespace ShipManagement.API.Controllers
 
             return new ResultDTO<T>()
             {
-                Success = false,
                 Messages = messages ?? new List<string>() { ex.Message }
             };
         }

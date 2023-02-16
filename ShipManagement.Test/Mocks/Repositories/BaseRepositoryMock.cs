@@ -1,9 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-using ShipManagement.Domain.Entities;
+﻿using ShipManagement.Domain.Entities;
 using ShipManagement.Domain.Interfaces.Repositories;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Xml;
 
 namespace ShipManagement.Test.Core.Repositories
 {

@@ -1,6 +1,5 @@
 ﻿using ShipManagement.Domain.Entities;
 using ShipManagement.Domain.Interfaces.Repositories;
-using ShipManagement.Infrasctructure.Repositories;
 
 namespace ShipManagement.Test.Core.Repositories
 {
